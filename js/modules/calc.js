@@ -3,7 +3,7 @@ function calc() {
        //
 
     const result = document.querySelector('.calculating__result span');
-    
+    console.log(result)
     let sex, height, weight, age, ratio;
 
     if (localStorage.getItem('sex')) {
